@@ -8,10 +8,10 @@
 
 ---
 
-**EXPLICACIÓN ACERCA DEL FUNCIONAMIENTO DEL PROGRAMA:**
-
 Como bien dice en la descripción del repositorio y en el titulo del README, el programa permite contar la cantidad de pares de una matriz utilizando Hilos/Threads. En el mismo, tambíen se incluye la solución de 
 manera Secuencial para que la misma pueda ser comparada con la solución Concurrente. 
+
+**EXPLICACIÓN ACERCA DEL FUNCIONAMIENTO DEL PROGRAMA:**
 
 - En primer lugar debemos tener en cuenta que, al trabajar con Hilos, debemos buscar la manera de que los Hilos que generemos trabajen en distintas regiones de nuestra matriz, ya que, si trabajan en las mismas, se
 generaría el gran problema de la concurrencia que es nada más y nada menos que la aparición de las denominadas "Regiones Críticas". Para abordar este primer problema, debemos decidir si los hilos se van a encargar
